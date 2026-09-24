@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		01023F5AEC5E6969819E99EF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716EBFDC642F69042D5A6B56 /* App.swift */; };
-		CEABB8623C7AD07D5FAADDFF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF67815108FE389F0B387BD /* main.swift */; };
 		FDEFBF197532CD7CD41B677B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AFFC47849BB172BF6D5B2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		113AFFC47849BB172BF6D5B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		716EBFDC642F69042D5A6B56 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		ABF67815108FE389F0B387BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F8F4075D4CD8A2CB24758CFC /* CardDetector.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CardDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,7 +23,6 @@
 			children = (
 				716EBFDC642F69042D5A6B56 /* App.swift */,
 				113AFFC47849BB172BF6D5B2 /* ContentView.swift */,
-				ABF67815108FE389F0B387BD /* main.swift */,
 			);
 			path = CardDetector;
 			sourceTree = "<group>";
@@ -111,7 +108,6 @@
 			files = (
 				01023F5AEC5E6969819E99EF /* App.swift in Sources */,
 				FDEFBF197532CD7CD41B677B /* ContentView.swift in Sources */,
-				CEABB8623C7AD07D5FAADDFF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +160,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.CardDetector;
@@ -244,7 +240,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
