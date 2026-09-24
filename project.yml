@@ -1,0 +1,24 @@
+name: CardDetector
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "13.0"
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.CardDetector
+    INFOPLIST_FILE: Info.plist
+    SWIFT_VERSION: "6.4"
+    TARGETED_DEVICE_FAMILY: 1
+targets:
+  CardDetector:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_NAME: CardDetector
+        TARGETED_DEVICE_FAMILY: 1
+    resources:
+      - path: Resources
+    dependencies: []
